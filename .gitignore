@@ -14,3 +14,10 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore the ruby version and ruby gemset
+/.ruby-gemset
+/.ruby-version
+
+# Ignore especial elemento fo Mac OS X
+/.DS_Store
