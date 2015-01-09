@@ -3,6 +3,7 @@ class CreateTodoItems < ActiveRecord::Migration
     create_table :todo_items do |t|
       t.references :todo_list, index: true
       t.string :content
+      t.datetime :completed_at
 
       t.timestamps
     end
